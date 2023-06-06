@@ -46,7 +46,7 @@ const menus = [
   },
 ];
 
-export const NavMenu = () => {
+export const NavMenu = ({ sidebarState }) => {
   return (
     <div className="navMenu mt-3">
       {menus.map((menu, i) => {
@@ -64,7 +64,9 @@ export const NavMenu = () => {
                     <NavLink
                       href="#"
                       active={i === 0 && j === 0 && true}
-                      className="text-capitalize navMenu_item_link"
+                      className={`text-capitalize navMenu_item_link ${
+                        sidebarState && "d-none"
+                      }`}
                     >
                       {" "}
                       {d.name}{" "}
