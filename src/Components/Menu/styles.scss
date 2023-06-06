@@ -1,0 +1,33 @@
+@import "../../styles/color.scss";
+
+.navMenu {
+  &_title {
+    font-size: 11px;
+    line-height: 14px;
+    color: $textSecondary;
+    margin-bottom: 15px;
+  }
+  &_item {
+    padding: 10px 16px;
+    margin-bottom: 8px;
+    &.active {
+      background-color: $backgrouundSecondary;
+      border-radius: 6px;
+    }
+    &_link {
+      &.nav-link {
+        font-size: 15px;
+        line-height: 22px;
+        font-weight: 400;
+        color: $textSecondary;
+        padding: 0px;
+        margin-left: 10px;
+        margin-top: 2px;
+        &.active {
+          color: $textPrimary;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}

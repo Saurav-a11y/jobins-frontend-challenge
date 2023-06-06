@@ -1,7 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&display=swap");
+
 @import "../styles/color.scss";
 
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: $backgrouundSecondary !important;
+  font-family: "Public Sans", sans-serif !important;
 }

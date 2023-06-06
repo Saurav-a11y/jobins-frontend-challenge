@@ -2,4 +2,14 @@
 
 .sidebar {
   background-color: $backgroundPrimary;
+  height: 100vh;
+  padding: 20px;
+  &_logo {
+    &_title {
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 24px;
+      color: $textPrimary;
+    }
+  }
 }
