@@ -1,0 +1,65 @@
+@import "../../styles/color.scss";
+
+.card {
+  background-color: $backgroundPrimary !important;
+  border-radius: 16px !important;
+  border: 0 !important;
+  padding: 20px;
+  width: max-content;
+  &_horizontal {
+    border: 1px solid #dbdade;
+    height: 139px;
+    margin: 0px 33px;
+  }
+  &_details {
+    &_header {
+      margin-bottom: 30px;
+      h3 {
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 26px;
+        color: $textPrimary;
+        letter-spacing: -0.02em;
+      }
+      span {
+        color: $textSecondary;
+        font-size: 14px;
+        font-weight: 500;
+        letter-spacing: -0.02em;
+        line-height: 20px;
+      }
+    }
+    &_content {
+      margin-bottom: 16px;
+      h4 {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 32px;
+        color: $textPrimary;
+        letter-spacing: -0.02em;
+      }
+    }
+    &_footer {
+      display: flex;
+      align-items: center;
+      &_icon {
+        margin-right: 6px;
+      }
+      &_figure {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        color: $textSuccess;
+        letter-spacing: -0.02em;
+        margin-right: 8px;
+      }
+      &_date {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: -0.02em;
+        color: $textSecondary;
+      }
+    }
+  }
+}

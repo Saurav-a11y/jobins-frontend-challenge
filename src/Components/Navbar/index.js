@@ -3,6 +3,8 @@ import React from "react";
 import notificationIcon from "../../assets/svg/notification.svg";
 import avatarIcon from "../../assets/svg/avatar.svg";
 
+import "./styles.scss";
+
 export const Navbar = () => {
   return (
     <div className="navbar">

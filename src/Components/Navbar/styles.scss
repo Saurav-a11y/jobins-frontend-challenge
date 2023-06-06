@@ -1,0 +1,13 @@
+@import "../../styles/color.scss";
+
+.navbar {
+  margin: 18px 0px;
+  &_content {
+    &_title {
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 22px;
+      color: $textPrimary;
+    }
+  }
+}

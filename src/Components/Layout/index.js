@@ -18,7 +18,7 @@ export const Layout = ({ children }) => {
   return (
     <div className="container-fluid px-0 overflow-hidden">
       <Row>
-        <Col lg={!sidebarState ? 3 : 1}>
+        <Col lg={!sidebarState ? 3 : 1} xxl={!sidebarState ? 2 : 1}>
           <div className="sidebar">
             <div className="sidebar_logo d-flex align-items-center justify-content-between">
               <div className="d-flex align-items-center">
@@ -43,7 +43,7 @@ export const Layout = ({ children }) => {
             </div>
           </div>
         </Col>
-        <Col lg={!sidebarState ? 9 : 11}>
+        <Col lg={!sidebarState ? 9 : 11} xxl={!sidebarState ? 10 : 11}>
           <div className="container-xs container-lg container-xxl">
             <div className="content">
               <Navbar />
