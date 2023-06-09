@@ -2,8 +2,10 @@
 
 .sidebar {
   background-color: $backgroundPrimary;
-  height: 100vh;
+  height: 100%;
   padding: 20px;
+  position: fixed;
+  top: 0;
   @media (max-width: 991px) {
     height: 100%;
   }

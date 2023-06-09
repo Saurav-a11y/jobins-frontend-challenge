@@ -1,0 +1,46 @@
+@import "../../styles/color.scss";
+
+.pagination {
+  .page-item {
+    a {
+      width: 28px;
+      height: 28px;
+      background: #f1f2f6;
+      border-radius: 4px;
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 20px;
+      color: $textSecondary;
+      text-align: center;
+      padding: 4px;
+    }
+    &.table-active {
+      a {
+        background-color: $textInfo;
+        color: $backgroundPrimary;
+      }
+    }
+  }
+}
+
+.customTable {
+  .column_title {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: $textPrimary;
+  }
+  .column_status {
+    color: $textWarning;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+  }
+  .column_action {
+    color: $textInfo;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    cursor: pointer;
+  }
+}
